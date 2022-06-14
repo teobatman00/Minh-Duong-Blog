@@ -2,3 +2,9 @@ baseURL = 'https://teobatman00.github.io/Minh-Duong-Blog/'
 languageCode = 'en-us'
 title = 'Minh Duong Blog'
 theme = "LoveIt"
+
+
+[params]
+    author = 'Minh Duong'
+    search.enable = 'true'
+    header.title.name = 'Minh Duong Blog'

@@ -1,15 +1,23 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - My New Hugo Site</title>
-        <link>http://example.org/posts/</link>
-        <description>All Posts | My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <title>All Posts - Minh Duong Blog</title>
+        <link>https://teobatman00.github.io/Minh-Duong-Blog/posts/</link>
+        <description>All Posts | Minh Duong Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://teobatman00.github.io/Minh-Duong-Blog/posts/" rel="self" type="application/rss+xml" /><item>
     <title></title>
-    <link>http://example.org/posts/first-post/</link>
+    <link>https://teobatman00.github.io/Minh-Duong-Blog/posts/second-post/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>Author</author>
-    <guid>http://example.org/posts/first-post/</guid>
-    <description><![CDATA[hello Minh Duong]]></description>
+    <guid>https://teobatman00.github.io/Minh-Duong-Blog/posts/second-post/</guid>
+    <description><![CDATA[Hello ]]></description>
+</item>
+<item>
+    <title>New Post</title>
+    <link>https://teobatman00.github.io/Minh-Duong-Blog/posts/new-post/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Author</author>
+    <guid>https://teobatman00.github.io/Minh-Duong-Blog/posts/new-post/</guid>
+    <description><![CDATA[Minh Duong]]></description>
 </item>
 </channel>
 </rss>

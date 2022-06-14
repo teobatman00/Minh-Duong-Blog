@@ -2,8 +2,13 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/posts/first-post/</loc></url><url>
-            <loc>http://example.org/categories/</loc></url><url>
-            <loc>http://example.org/</loc></url><url>
-            <loc>http://example.org/posts/</loc></url><url>
-            <loc>http://example.org/tags/</loc></url></urlset>
+            <loc>https://teobatman00.github.io/Minh-Duong-Blog/posts/second-post/</loc></url><url>
+            <loc>https://teobatman00.github.io/Minh-Duong-Blog/quote/first/</loc></url><url>
+            <loc>https://teobatman00.github.io/Minh-Duong-Blog/quote/second/</loc></url><url>
+            <loc>https://teobatman00.github.io/Minh-Duong-Blog/about/</loc></url><url>
+            <loc>https://teobatman00.github.io/Minh-Duong-Blog/categories/</loc></url><url>
+            <loc>https://teobatman00.github.io/Minh-Duong-Blog/</loc></url><url>
+            <loc>https://teobatman00.github.io/Minh-Duong-Blog/posts/new-post/</loc></url><url>
+            <loc>https://teobatman00.github.io/Minh-Duong-Blog/posts/</loc></url><url>
+            <loc>https://teobatman00.github.io/Minh-Duong-Blog/quote/</loc></url><url>
+            <loc>https://teobatman00.github.io/Minh-Duong-Blog/tags/</loc></url></urlset>
