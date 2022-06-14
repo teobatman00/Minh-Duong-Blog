@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "/home/minhduong/Desktop/Unicloud/personalblog",
+	"sourceRoot": "/home/runner/work/Minh-Duong-Blog/Minh-Duong-Blog",
 	"sources": [
 		"themes/LoveIt/assets/css/style.scss",
 		"themes/LoveIt/assets/lib/normalize/normalize.css",
