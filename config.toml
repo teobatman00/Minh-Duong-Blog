@@ -1,36 +1,36 @@
 baseURL = 'https://teobatman00.github.io/Minh-Duong-Blog/'
 languageCode = 'vi'
-title = 'Minh Duong Blog'
+title = 'Minh Dương Blog'
 theme = "LoveIt"
 
 [menu]
 [[menu.main]]
     identifier = 'About'
-    name = 'About'
+    name = 'Về tôi'
     url = 'about'
 [[menu.main]]
     identifier = 'Posts'
-    name = 'Posts'
+    name = 'Bài viết'
     url = 'posts'
 [[menu.main]]
     identifier = 'Categories'
-    name = 'Categories'
+    name = 'Thể loại'
     url = 'categories'
 [[menu.main]]
     identifier = 'Contacts'
-    name = 'Contacts'
+    name = 'Liên hệ'
     url = 'contacts'
 [[menu.main]]
     identifier = 'Tags'
-    name = 'Tags'
+    name = 'Thẻ'
     url = 'tags'
 
 
 [params]
-    author = 'Minh Duong'
-    header.title.name = 'Minh Duong Blog'
-    home.profile.subtitle = 'Trang ca nhan Minh Duong'
-    footer.license = 'Ban quyen thuoc ve Minh Duong'
+    author = 'Minh Dương'
+    header.title.name = 'Minh Dương Blog'
+    home.profile.subtitle = 'Trang cá nhân Minh Dương'
+    footer.license = 'Bản quyền thuộc về Minh Dương'
     [params.search]
         enable = true
         contentLength = 4000
