@@ -1,10 +1,28 @@
 baseURL = 'https://teobatman00.github.io/Minh-Duong-Blog/'
-languageCode = 'en-us'
+languageCode = 'vi'
 title = 'Minh Duong Blog'
 theme = "LoveIt"
 
+[menu]
+[[menu.main]]
+    identifier = 'About'
+    name = 'About'
+    url = 'about'
+[[menu.main]]
+    identifier = 'Posts'
+    name = 'Posts'
+    url = 'posts'
+[[menu.main]]
+    identifier = 'Contacts'
+    name = 'Contacts'
+    url = 'contacts'
 
 [params]
     author = 'Minh Duong'
     search.enable = 'true'
     header.title.name = 'Minh Duong Blog'
+    home.profile.subtitle = 'Trang ca nhan Minh Duong'
+    footer.license = 'Ban quyen thuoc ve Minh Duong'
+
+[author]
+    name = 'Minh Duong'
