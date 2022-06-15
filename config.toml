@@ -13,16 +13,34 @@ theme = "LoveIt"
     name = 'Posts'
     url = 'posts'
 [[menu.main]]
+    identifier = 'Categories'
+    name = 'Categories'
+    url = 'categories'
+[[menu.main]]
     identifier = 'Contacts'
     name = 'Contacts'
     url = 'contacts'
+[[menu.main]]
+    identifier = 'Tags'
+    name = 'Tags'
+    url = 'tags'
+
 
 [params]
     author = 'Minh Duong'
-    search.enable = 'true'
     header.title.name = 'Minh Duong Blog'
     home.profile.subtitle = 'Trang ca nhan Minh Duong'
     footer.license = 'Ban quyen thuoc ve Minh Duong'
+    [params.search]
+        enable = true
+        contentLength = 4000
+        placeholder = "Tìm kiếm tại đây"
+    [params.page.math]
+        enable = true
+    [params.page.comment]
+        enable = true
+        [params.page.comment.commento]
+            enable = true
 
 [author]
     name = 'Minh Duong'
