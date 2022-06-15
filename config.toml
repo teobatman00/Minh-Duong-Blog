@@ -39,7 +39,7 @@ theme = "LoveIt"
         enable = true
     [params.page.comment]
         enable = true
-        [params.page.comment.commento]
+        [params.page.comment.utterances]
             enable = true
 
 [author]
