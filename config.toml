@@ -41,6 +41,7 @@ theme = "LoveIt"
         enable = true
         [params.page.comment.utterances]
             enable = true
+            repo = "teobatman00/Minh-Duong-Blog"
 
 [author]
     name = 'Minh Duong'
