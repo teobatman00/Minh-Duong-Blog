@@ -1,6 +1,10 @@
 ---
-title: About
+title: Về tôi
+description: Về trang Minh Dương Blog
 slug: "about"
+hiddenFromSearch: true
+comment: 
+  enable: false
 ---
 
-# About
+# Về tôi

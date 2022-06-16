@@ -1,6 +1,7 @@
 ---
 title: Thông tin liên hệ
 slug: "contacts"
+hiddenFromSearch: true
 comment: 
   enable: false
 ---

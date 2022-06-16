@@ -1,8 +1,15 @@
 baseURL = 'https://teobatman00.github.io/Minh-Duong-Blog/'
 languageCode = 'vi'
+defaultContentLanguage = 'vi'
+languageName = 'Vietnamese'
 title = 'Minh Dương Blog'
 theme = "LoveIt"
 googleAnalytics = 'G-400LBDPY77'
+copyright = 'Minh Dương'
+enableGitInfo = true
+
+[frontmatter]
+    lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [menu]
 [[menu.main]]
@@ -28,8 +35,9 @@ googleAnalytics = 'G-400LBDPY77'
 
 
 [params]
-    author = 'Minh Dương'
-    home.profile.subtitle = 'Trang cá nhân Minh Dương'
+    description = 'Trang cá nhân Minh Dương'
+    [params.home.profile]
+        subtitle = 'Trang cá nhân Minh Dương'
     [params.header.title]
         name = 'Minh Dương Blog'
     [params.app]
@@ -47,6 +55,7 @@ googleAnalytics = 'G-400LBDPY77'
     [params.social]
         GitHub = 'https://github.com/teobatman00'
         Phone = '0916310208'
+        Email = 'minhduongb97@gmail.com'
     [params.page.comment]
         enable = true
         [params.page.comment.utterances]
@@ -54,4 +63,9 @@ googleAnalytics = 'G-400LBDPY77'
             repo = "teobatman00/Minh-Duong-Blog"
 
 [author]
-    name = 'Minh Duong'
+    name = 'Minh Dương'
+    email = 'minhduongb97@gmail.com'
+[minify]
+    minifyOutput = true
+[sitemap]
+    changefreq = 'hourly'
