@@ -51,6 +51,10 @@ theme = "LoveIt"
         [params.page.comment.utterances]
             enable = true
             repo = "teobatman00/Minh-Duong-Blog"
+    [params.analytics]
+        enable = true
+        [params.analytics.google]
+            id = "3762929097"
 
 [author]
     name = 'Minh Duong'
