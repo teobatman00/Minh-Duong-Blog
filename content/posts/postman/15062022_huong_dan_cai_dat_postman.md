@@ -36,4 +36,15 @@ Là một công cụ mã nguồn mở, bạn có thể download và cài đặt 
 ![](https://i.imgur.com/bkpofNz.png)
 
 - **Bước 2:** File tải về được hiển thị ở dưới cửa sổ trình duyệt. Khi quá trình tải về hoàn tất, bấm nút khởi động 
-- **Bước 3:**
+- **Bước 3:** Bấm nút next để bắt đầu cài đặt 
+- **Bước 4:** Trong màn hình kế tiêp, đăng nhập với tài khoản Postman
+- **Bước 5:** Chọn workspace (màn hình làm việc) và bâm nút **Save My Preferences**
+- **Bước 6:** Hiển thị màn hình Startup
+
+## Tóm tắt
+
+- Postman là công cụ phổ biến nhất được sử dụng trong việc thử nghiêm API 
+- Các tính năng thông dụng nhất trong Postman là khả năng truy cập, sử dụng bộ sưu tập (collection), cộng tác, tích hợp liên tục 
+- Bạn nên tạo tài khoản khi sử dụng Postman, vì các collection được lưu sẵn và có sẵn trực tuyến 
+- Bạn có thể tham số hóa Request
+- Bạn có thể  tạo ra các bài test để kiểm tra các request trong postman 

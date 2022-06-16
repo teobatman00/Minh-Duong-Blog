@@ -28,20 +28,32 @@ theme = "LoveIt"
 
 [params]
     author = 'Minh Dương'
-    header.title.name = 'Minh Dương Blog'
     home.profile.subtitle = 'Trang cá nhân Minh Dương'
-    footer.license = 'Bản quyền thuộc về Minh Dương'
+    [params.header.title]
+        name = 'Minh Dương Blog'
+    [params.app]
+        title = 'Minh Dương Blog'
+    [params.footer]
+        license = 'Bản quyền thuộc về Minh Dương Blog'
+        hugo = false
+        custom = 'Minh Dương Blog'
     [params.search]
         enable = true
         contentLength = 4000
         placeholder = "Tìm kiếm tại đây"
     [params.page.math]
         enable = true
+    [params.social]
+        GitHub = 'https://github.com/teobatman00'
+        Phone = '0916310208'
     [params.page.comment]
         enable = true
-        [params.page.comment.utterances]
-            enable = true
-            repo = "teobatman00/Minh-Duong-Blog"
+        [params.page.comment.valine]
+            enable = true 
+            placeholder = 'Nhập comment của bạn'
+        # [params.page.comment.utterances]
+        #     enable = true
+        #     repo = "teobatman00/Minh-Duong-Blog"
 
 [author]
     name = 'Minh Duong'
