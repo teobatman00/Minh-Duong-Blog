@@ -2,6 +2,7 @@ baseURL = 'https://teobatman00.github.io/Minh-Duong-Blog/'
 languageCode = 'vi'
 title = 'Minh Dương Blog'
 theme = "LoveIt"
+googleAnalytics = 'G-400LBDPY77'
 
 [menu]
 [[menu.main]]
@@ -51,10 +52,6 @@ theme = "LoveIt"
         [params.page.comment.utterances]
             enable = true
             repo = "teobatman00/Minh-Duong-Blog"
-    [params.analytics]
-        enable = true
-        [params.analytics.google]
-            id = "G-400LBDPY77"
 
 [author]
     name = 'Minh Duong'
