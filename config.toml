@@ -48,12 +48,9 @@ theme = "LoveIt"
         Phone = '0916310208'
     [params.page.comment]
         enable = true
-        [params.page.comment.valine]
-            enable = true 
-            placeholder = 'Nhập comment của bạn'
-        # [params.page.comment.utterances]
-        #     enable = true
-        #     repo = "teobatman00/Minh-Duong-Blog"
+        [params.page.comment.utterances]
+            enable = true
+            repo = "teobatman00/Minh-Duong-Blog"
 
 [author]
     name = 'Minh Duong'
