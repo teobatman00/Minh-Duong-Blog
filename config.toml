@@ -54,7 +54,7 @@ theme = "LoveIt"
     [params.analytics]
         enable = true
         [params.analytics.google]
-            id = "3762929097"
+            id = "G-400LBDPY77"
 
 [author]
     name = 'Minh Duong'
