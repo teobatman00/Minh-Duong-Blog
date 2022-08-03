@@ -15,7 +15,7 @@ enableGitInfo = true
 [[menu.main]]
     identifier = 'About'
     name = 'Về tôi'
-    url = 'about'
+    url = 'introduction'
 [[menu.main]]
     identifier = 'Posts'
     name = 'Bài viết'
@@ -69,3 +69,7 @@ enableGitInfo = true
     minifyOutput = true
 [sitemap]
     changefreq = 'hourly'
+
+[markup]
+    [markup.highlight]
+        noClasses = false
