@@ -30,6 +30,8 @@ jobs:
 
       - name: Update algolia search
         uses: algolia/algolia-cli
+
+      - name: Import algolia search
         run: algolia import -s public/index.json -a LM3W7U79VA -k 6f6172a8d74750eae8a0b10fc3c61541 -n personal_blog
 
       - name: Deploy
