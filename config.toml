@@ -50,6 +50,10 @@ enableGitInfo = true
         enable = true
         contentLength = 4000
         placeholder = "Tìm kiếm tại đây"
+        [params.search.algolia]
+            index = "personal_blog"
+            appID = "LM3W7U79VA"
+            searchKey =  "ca8c0c3c79b2f069d4bd6f5d1dbfd247"
     [params.page.math]
         enable = true
     [params.social]
