@@ -48,6 +48,7 @@ enableGitInfo = true
         custom = 'Minh Dương Blog'
     [params.search]
         enable = true
+        type = "algolia"
         contentLength = 4000
         placeholder = "Tìm kiếm tại đây"
         [params.search.algolia]
@@ -77,3 +78,6 @@ enableGitInfo = true
 [markup]
     [markup.highlight]
         noClasses = false
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]

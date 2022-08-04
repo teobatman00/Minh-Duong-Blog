@@ -25,6 +25,13 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Generate public
+        run: hugo -D
+
+      - name: Update algolia search
+        uses: algolia/algolia-cli
+        run: algolia import -s public/index.json -a LM3W7U79VA -k 6f6172a8d74750eae8a0b10fc3c61541 -n personal_blog
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
