@@ -32,7 +32,7 @@ jobs:
         run: hugo -D
 
       - name: Install algolia
-        run: npm install @algolia/cli
+        run: npm install -g @algolia/cli
 
       - name: Import algolia search
         run: algolia import -s public/index.json -a LM3W7U79VA -k 6f6172a8d74750eae8a0b10fc3c61541 -n personal_blog
