@@ -9,6 +9,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-20.04
+    strategy:
+      matrix:
+        node-version: [16.x]
     steps:
       - name: Checkout repository and submodules
         uses: actions/checkout@v2
@@ -28,8 +31,8 @@ jobs:
       - name: Generate public
         run: hugo -D
 
-      - name: Update algolia search
-        uses: algolia/algolia-cli
+      - name: Install algolia
+        run: npm install @algolia/cli
 
       - name: Import algolia search
         run: algolia import -s public/index.json -a LM3W7U79VA -k 6f6172a8d74750eae8a0b10fc3c61541 -n personal_blog
