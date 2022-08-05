@@ -2,3 +2,5 @@
 
 **Technology used:**
 - Hugo
+
+Clone submodule before use
