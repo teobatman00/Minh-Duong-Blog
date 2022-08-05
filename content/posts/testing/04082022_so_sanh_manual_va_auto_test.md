@@ -2,7 +2,7 @@
 title: So sánh manual và automation test
 subtitle: Bài viết so sánh sự khác biệt giữa manual testing và automation testing 
 description: Bài viết so sánh sự khác biệt giữa manual testing và automation testing 
-date: 2022-06-15
+date: 2022-08-04
 slug: "so-sanh-manual-va-automation-test"
 categories: ['testing']
 tags: ['testing', 'auto test', 'manual test']

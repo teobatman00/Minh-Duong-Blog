@@ -14,30 +14,36 @@ enableGitInfo = true
 [menu]
 [[menu.main]]
     identifier = 'About'
-    name = 'Về tôi'
+    name = 'Giới thiệu'
     url = 'introduction'
+    weight = 1
 [[menu.main]]
     identifier = 'Posts'
     name = 'Bài viết'
     url = 'posts'
+    weight = 2
 [[menu.main]]
     identifier = 'Categories'
     name = 'Thể loại'
     url = 'categories'
-[[menu.main]]
-    identifier = 'Contacts'
-    name = 'Liên hệ'
-    url = 'contacts'
+    weight = 3
 [[menu.main]]
     identifier = 'Tags'
     name = 'Thẻ'
     url = 'tags'
+    weight = 4
+[[menu.main]]
+    identifier = 'Contacts'
+    name = 'Liên hệ'
+    url = 'contacts'
+    weight = 5
 
 
 [params]
     description = 'Trang cá nhân Minh Dương'
     [params.home.profile]
         subtitle = 'Trang cá nhân Minh Dương'
+        avatarURL = 'https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745'
     [params.header.title]
         name = 'Minh Dương Blog'
     [params.app]
@@ -58,7 +64,7 @@ enableGitInfo = true
     [params.page.math]
         enable = true
     [params.social]
-        GitHub = 'https://github.com/teobatman00'
+        GitHub = 'teobatman00'
         Phone = '0916310208'
         Email = 'minhduongb97@gmail.com'
     [params.page.comment]
